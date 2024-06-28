@@ -1,7 +1,6 @@
 package lista1;
 
 import java.util.Scanner;
-import java.lang.OutOfMemoryError;
 
 public class ex1 {
 

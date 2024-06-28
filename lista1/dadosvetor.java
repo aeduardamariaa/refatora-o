@@ -38,7 +38,8 @@ public class dadosvetor {
                 valor6++;
             }
         }
-
+        scan.close();
+        
         System.out.println("Numero 1 foi tirado " + valor1 + " vezes.");
         System.out.println("Numero 2 foi tirado " + valor2 + " vezes.");
         System.out.println("Numero 3 foi tirado " + valor3 + " vezes.");
@@ -46,6 +47,5 @@ public class dadosvetor {
         System.out.println("Numero 5 foi tirado " + valor5 + " vezes.");
         System.out.println("Numero 6 foi tirado " + valor6 + " vezes.");
 
-        scan.close();
     }
 }
