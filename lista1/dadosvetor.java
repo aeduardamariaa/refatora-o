@@ -37,8 +37,8 @@ public class dadosvetor {
             if(vetjogo.get(cont) == 6) {
                 valor6++;
             }
+            scan.close();
         }
-        scan.close();
         
         System.out.println("Numero 1 foi tirado " + valor1 + " vezes.");
         System.out.println("Numero 2 foi tirado " + valor2 + " vezes.");
