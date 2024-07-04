@@ -1,10 +1,8 @@
-package lista3;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Busca1 {
+public class busca1 {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);

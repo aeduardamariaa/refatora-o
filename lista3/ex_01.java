@@ -1,5 +1,3 @@
-package lista3;
-
 import java.util.Scanner;
 
 public class ex_01 {
