@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class listamold4 {
     public static void main(String[] args) {
-        float alt = 0, base = 0,resp = 0;
+        float alt = 0, base = 0;
         Scanner sc = new Scanner(System.in);
 
         System.out.println("INFORME A MEDIDA LATERAL DO TERRENO: ");
