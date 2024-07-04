@@ -23,5 +23,6 @@ public class testematriz12 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
