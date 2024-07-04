@@ -90,6 +90,9 @@ class Endereço{
     public void setCEP(String cEP) {
         CEP = cEP;
     }
+    public String toString() {
+        return "\nEndereço: \n- Rua: " + this.getRua() + "\n- Numero: " + this.getNumero() + "\n- Bairro: " + this.getBairro() + "\n- Cidade: " + this.getCidade() + "\n- Sigla Estado: " + this.getSigla_estado() + "\n- CEP: " + this.getCEP();
+    }
 }
 
 class Pessoal {
@@ -123,7 +126,7 @@ class Pessoal {
     }
 
     public String toString() {
-        return "Nome: " + this.nome + "\nTelefone: " + this.telefone + "\nEndereço: \n- Rua: " + this.endereco.getRua() + "\n- Numero: " + this.endereco.getNumero() + "\n- Bairro: " + this.endereco.getBairro() + "\n- Cidade: " + this.endereco.getCidade() + "\n- Sigla Estado: " + this.endereco.getSigla_estado() + "\n- CEP: " + this.endereco.getCEP();
+        return "Nome: " + this.nome + "\nTelefone: " + this.telefone + endereco.toString();
     }
     
 }
