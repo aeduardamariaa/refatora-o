@@ -22,6 +22,6 @@ public class busca1 {
         }
         
         System.out.println("Número "+busca+ " encontrado "+ qtde + " vezes.");
-        
+        sc.close();
     }
 }

@@ -36,6 +36,7 @@ public class dadosvetor {
                 valor6++;
             }
         }
+        
         scan.close();
         
         System.out.println("Numero 1 foi tirado " + valor1 + " vezes.");
